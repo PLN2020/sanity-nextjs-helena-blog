@@ -1,12 +1,12 @@
 import { buildLegacyTheme } from "sanity";
 
 const props = {
-  '--my-white': '#fff',
-  '--my-black': '#1a1a1a',
-  '--my-blue': '#4285f4',
-  '--my-red': '#db4437',
-  '--my-yellow': '#f4b400',
-  '--my-green': '#0f9d58',
+  '--my-white': '#fcfdfd',
+  '--my-black': '#0d1515',
+  '--my-blue': '#fa7a78',
+  '--my-red': '#f02f53',
+  '--my-yellow': '#fbd024',
+  '--my-green': '#43d675',
 }
 
 export const myTheme = buildLegacyTheme({
@@ -14,8 +14,8 @@ export const myTheme = buildLegacyTheme({
   '--black': props['--my-black'],
   '--white': props['--my-white'],
 
-  '--gray': '#666',
-  '--gray-base': '#666',
+  '--gray': '#8bb9b5',
+  '--gray-base': '#8bb9b5',
 
   '--component-bg': props['--my-white'],
   '--component-text-color': props['--my-black'],
