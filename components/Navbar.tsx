@@ -19,10 +19,18 @@ export default function Navbar() {
                 <div className="border-l-2 border-gray-600 h-8" />
 
                 <div className="flex space-x-4 ml-10">
-                    <FaTwitter />
-                    <FaInstagram />
-                    <FaFacebook />
-                    <FaYoutube />
+                    <Link href="https://www.twitter.com" target="_blank">
+                        <FaTwitter />
+                    </Link>
+                    <Link href="https://www.instagram.com" target="_blank">
+                        <FaInstagram />
+                    </Link>
+                    <Link href="https://www.facebook.com" target="_blank">
+                        <FaFacebook />
+                    </Link>
+                    <Link href="https://www.youtube.com" target="_blank">
+                        <FaYoutube />
+                    </Link>
                 </div>
             </div>
         </nav>
