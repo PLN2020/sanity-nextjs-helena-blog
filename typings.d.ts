@@ -1,5 +1,3 @@
-import { AuthStoreOptions, Image, Reference, Slug } from "sanity";
-
 type Base = {
     _createdAt: string;
     _id: string;
@@ -66,6 +64,11 @@ interface MainImage {
 }
 
 interface Title {
+    _type: "string";
+    current: string;
+}
+
+interface Excerpt {
     _type: "string";
     current: string;
 }
