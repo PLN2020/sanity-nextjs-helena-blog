@@ -32,12 +32,16 @@ export default async function Page() {
 
     const posts = await client.fetch(query);
     console.log(posts);
+
     return (
-        <div className="flex justify-center items-center h-screen">
-            <h1 className="text-4xl">
-                Blog
-            </h1>
+        <div className="">
+            <header>
+                <h1 className="text-4xl">
+                    Helena's Blog
+                </h1>
+            </header>
             <BlogList posts={posts} />
         </div>
     )
 }
+

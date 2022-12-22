@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 export default function Navbar() {
     return (
-        <nav className="sticky flex justify-between items-center top-0 h-[10vh] bg-gray-100 px-10">
+        <nav className="sticky flex justify-between items-center top-0 h-[10vh] bg-gray-100 px-10 z-10">
             <div>
                 <Link href='/'>Helena's Blog</Link>
             </div>
