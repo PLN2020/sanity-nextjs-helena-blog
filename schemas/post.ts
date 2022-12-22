@@ -48,6 +48,7 @@ export default defineType({
         name: 'excerpt',
         title: 'Excerpt',
         type: 'text',
+        description: 'Enter a short snippet for your blog post.',
         rows: 3,
     }),
     defineField({
