@@ -3,6 +3,7 @@ import { groq } from "next-sanity";
 import { client } from "../../lib/sanity.client";
 import PreviewSuspense from "../../components/PreviewSuspense";
 
+export const revalidate = 60;
 const query = groq`
     *[_type=='post'] {
         ...,
